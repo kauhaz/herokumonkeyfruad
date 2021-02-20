@@ -1,0 +1,37 @@
+.h1-editpost { 
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    color: #5c5c5c;
+}
+/*Responsive*/ 
+@media only screen and (max-width: 1920px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 414px) {
+    .h1-editpost{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 414px) {
+    .h1-editpost{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}

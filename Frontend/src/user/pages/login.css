@@ -1,0 +1,196 @@
+.container-login {
+    margin: 40px auto;
+    padding: 30px 40px;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    box-shadow: 10px 20px 50px rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+.h2-login{
+    font-size: 32px;
+    margin-top: -5px;
+}
+.LoginForm-login {
+    width: 100%;
+    max-width: 376px;
+    padding: 15px;
+    margin: auto;
+}
+
+.LoginInputForm-login {
+    font-size: 16px;
+    color: grey;
+}
+
+.message-login{
+    display:flex;
+    justify-content:space-between;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.RememberCheckbox-login, .ForgotPassword-login a {
+    color: #5c5c5c;
+    font-size: 16px;
+}
+
+.LoginButton-login {
+    background-color: #f87c7c;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 6px;
+    color: white;
+    font-size: 18px;
+}
+
+.LoginButton-login:hover {
+    background-color: #f76d6d;
+    border: none;
+}
+
+.Signup-login a {
+    color: #212529;
+    font-size: 18px;
+}
+
+.Signup-login a:hover, .ForgotPassword-login a:hover {
+    color: #9b1b1b;
+}
+
+.Signup-login hr {
+    margin-top: 2rem;
+    color:black;
+}
+
+.LoginFacebook-login {
+    background-color: #4d70bd;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.LoginFacebook-login:hover {
+    background-color: #3d67c2;
+    border: none;
+}
+
+.LoginGoogle-login {
+    background-color: #fa5f40;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.LoginGoogle-login:hover {
+    background-color: #fa5736 !important;
+    border: none !important;
+}
+
+
+.LoginFacebook-login p, .LoginGoogle-login {
+    color: white;
+    font-size: 18px;
+}
+
+.LoginFacebook-login svg, .LoginFacebook-login p, .LoginGoogle-login svg, .LoginGoogle-login p{
+    display: inline-block;
+}
+
+.LoginFacebook-login svg, .LoginGoogle-login svg {
+    vertical-align: middle;
+    margin: 0 .5rem 4px 0;
+}
+
+.Logo-login  {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.alert-login {
+    margin-top: 1rem;
+    color: #be2020;
+    border: 1px solid #be2020;
+    background-color: #f8a9a977;
+    padding: .3rem;
+    border-radius: .4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.alert-login span{
+    font-size: 1rem;
+}
+
+/*Responsive*/ 
+@media only screen and (max-width: 1921px) {
+    /* .container-login {
+        width: 500px;
+        height: 570px;
+    }
+    .Logo-login  {
+        width: 80px;
+        height: 80px;
+        margin-top: -20px;
+    }
+    .h2-login{
+        font-size: 25px;
+        margin-top: -5px;
+    } */
+
+}
+@media only screen and (min-width: 1920px) {
+
+}
+@media only screen and (max-width: 1024px) {
+    .container-login {
+        margin-top: 220px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-login {
+        margin-top: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .container-login {
+        width: 100%;
+        box-shadow: 0px 0px 0px rgba(0,0,0,.2);
+        border-radius: 0px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .container-login {
+        width: 100%;
+        box-shadow: 0px 0px 0px rgba(0,0,0,.2);
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+    .LoginFacebook-login p, .LoginGoogle-login{
+        font-size: 15px;
+    }
+    .container-login {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Logo-login{
+        width: 125px;
+        height: 125px;
+    }
+    .text1-login{
+        font-size: 30px !important;
+    }
+}
