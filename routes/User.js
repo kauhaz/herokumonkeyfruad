@@ -342,5 +342,12 @@ router.get("/profile/:uid", async (req, res) => {
     return res.status(500).json({ msg: err });
   }
 });
+router.get("/kuy", async (req, res) => {
+  
+       res.json({
+        msg:"kuy",
+      })
+  
+      })
 
 module.exports = router;
